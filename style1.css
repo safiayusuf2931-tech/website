@@ -1,0 +1,61 @@
+/* .box2{
+     width: 200px;
+    height: 200px;
+    background-color: rgb(84, 71, 4);
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    animation: box2 5s;
+}
+@keyframes box2 {
+    from{
+        transform: translate(-400px);
+    }
+    to{
+        transform: translate(300px);
+    }
+}
+.box3{
+     width: 200px;
+    height: 200px;
+    background-color: rgb(84, 71, 4);
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    animation: box3 5s;
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+}
+@keyframes box3 {
+    from{
+       transform: translate(400px);
+    }
+    to{
+        transform: translate(200px);
+    }
+} */
+ .box2{
+     width: 200px;
+    height: 200px;
+    background-color: rgb(84, 71, 4);
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 30px;
+    animation: box2 5s;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes box2 {
+    from{
+        transform: skew(25deg);
+    }
+    to{
+        transform: skew(0);
+    }
+}

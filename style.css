@@ -1,0 +1,59 @@
+ .box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 200px;
+    animation:ani 7s;
+} 
+@keyframes ani {
+    from{
+        transform: rotate(100deg);
+        background-color: brown;
+        width: 400px;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.box2{
+     width: 200px;
+    height: 200px;
+    background-color: rgb(84, 71, 4);
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 200px;
+    animation: sa 5s;
+}
+@keyframes sa{
+    0%{
+        background-color: black;
+          font-size: 0px;
+    }
+    50%{
+        background-color: rgb(109, 66, 66);
+    }
+    100%{
+        background-color: blue;
+        font-size: 200px;
+    }
+}
+.box3 img{
+     width: 300px;
+    height: 300px;
+    
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 200px;
+    animation: img 10s;
+}
+@keyframes img{
+    from{
+        transform: scale(2);
+          
+    }
+    to{
+        transform: scale(0.5);
+    }
+} 
